@@ -1,0 +1,113 @@
+@font-face { font-family: fnA;
+	src: url(2005_iannnnntko.ttf); }  
+body { font-family: fnA;}
+
+body{
+	background:url(image/196-scaled.jpg);/*พื้นหลัง*/
+	margin:0;
+	padding:0;
+
+}
+/*-------ส่วนหัว-------*/
+header{
+	background:url(image/BN.jpg);
+	color:white;
+	font-size:1.5em;
+	background-size:cover ;
+	background-position:center;
+}
+header>section{
+	padding:1em 10% 1em 10%;
+	text-align:left;
+	
+}
+/*----ตั้งค่าเเถบเมนู----*/
+ul.menu{
+	background:PaleGoldenrod;
+	margin:0;
+	list-style-type:none;
+	padding: 0 10% 0 10%;
+	position:relative; /*--ตำเเหน่งไม่ให้ข้อมูลกระโดด--*/
+	overflow:auto;
+	
+}
+ul.menu li a{
+	text-decoration:none; /*----เอาเส้นใต้ออก----*/
+	color:brown;
+	font-size:1.5em;
+	float:left; /*--ให้เเถบขึ้นไป----*/
+	padding:0.5em 1em 0.5em 1em;
+	
+}
+ul.menu li a:hover{
+	color:red;
+	text-decoration:;
+}
+/*-----เนื้อหา------*/
+article{display:block;}
+article>section{
+	padding: 2em 15% 2em 15%;
+	background:rgba(255,255,255,0.7)
+}
+article>section>h2{
+	color:black;
+	text-align:center;
+	border-bottom:solid 3px black;
+}
+
+
+#p1{
+	text-indent:50px;
+	text-align:justify;
+}
+#img2{
+	width:50%;
+
+	
+}
+article>section2>h3{
+	color:coral;
+border-bottom:dashed 1 px coral;}
+#pp {
+	text-indent: 50px;
+	text-align: justify;
+}
+#img2 {	width: 70%; }
+
+#imgL { /*รูปฝั่งซ้าย*/
+	height: 200px; 
+	float: left;
+	margin-right: 20px;
+}
+#imgR { /*รูปฝั่งขวา*/
+	height: 200px;
+	float: right;
+	margin-left: 20px; 
+}
+
+#icon { 	/*รูปไอคอน*/
+	height: 1.1em;
+	vertical-align: top; }
+
+/*----------------ส่วนล่าง----------------*/
+footer {
+	background: Coral;
+	color: white;
+	font-size: 0.8em;
+	padding: 1em 10% 1em 10%;
+}
+footer > section:first-child {
+	float: right;
+	width: 40%;
+}
+footer > section > a:link, footer > section > a:visited {
+	text-decoration: none;
+	color: white;
+}
+#imgjf{ float:middle;
+margin-bottom:20px;
+
+
+
+}
+
